@@ -1,24 +1,32 @@
 # Unit.js
 
-[![Actual version published on NPM](https://badge.fury.io/js/unit.js.png)](https://www.npmjs.org/package/unit.js)
-[![Dependencies](https://david-dm.org/unitjs/unit.js.png)](https://david-dm.org/unitjs/unit.js)
-[![npm module downloads per month](http://img.shields.io/npm/dm/unit.js.svg)](https://www.npmjs.org/package/unit.js)
+## Status
+[![Build Status](https://travis-ci.org/scub45t3v3/unit.js.svg?branch=master)](https://travis-ci.org/scub45t3v3/unit.js)
 
+[Fork](https://github.com/unitjs/unit.js)
+
+**This is a forked repository and is currently under construction.**
+
+**Browser support has been removed during development**
+
+**Expect many changes leading up to release under a new scoped name**
+
+## Purpose
 Unit testing framework for javascript / Node.js.
 
 > Philosophy of Unit.js: modern, flexible, simple and intuitive.
 
-_Unit.js_ is an _assertion library_ for Javascript, running on __Node.js__ and in the __browser__.
-It __works with any test runner__ and unit testing framework like Mocha, Jasmine, Karma, protractor (E2E test framework for Angular apps), QUnit, ... and more.
+_Unit.js_ is an _assertion library_ for Javascript, running on __Node.js__.
+It __works with any test runner__ and unit testing framework like Mocha, Jasmine, Karma, QUnit, ... and more.
 
 _Unit.js_ provides an awesome API to write your unit tests in the way you prefer:
 
-  * &#43; Unit.js (fluent style)
-  * &#43; Assert (of Node.js)
-  * &#43; Must.js
-  * &#43; Should.js
-  * &#43; Sinon.js
-  * &#43; other friendly features.
+  * Unit.js (fluent style)
+  * Assert (of Node.js)
+  * Must.js
+  * Should.js
+  * Sinon.js
+  * other friendly features.
 
  **=** [![Unit JS unit testing framework for javascript](http://unitjs.com/assets/img/unitjs.png)](http://unitjs.com)
 
@@ -43,23 +51,14 @@ Unit.js was designed to provide the essential tools for writing unit tests with 
   * [Helpers](http://unitjs.com/guide/helpers.html)
   * Community support on the IRC channel __&#35;unit.js__ (freenode).
 
-> Unit.js v1 is released!
-> Look at the [changelog file](CHANGELOG.md) for see new features of this major release.
-
 
 ## Installation
-
-### For Node.js
 
 You can install Unit.js with NPM (Node Package Manager).
 
 ```shell
 npm install unit.js
 ```
-
-### For the browser
-
-See [Unit.js in the browser](http://unitjs.com/guide/browser.html).
 
 
 ## Usage
