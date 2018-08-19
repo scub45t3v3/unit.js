@@ -16,12 +16,18 @@
     "name": "Nicolas Tallefourtane",
     "url": "http://nicolab.net"
   },
+  "contributors": [
+    {
+      "name": "Steve Winberg",
+      "email": "stevewin21@gmail.com"
+    }
+  ],
   "homepage": "http://unitjs.com",
   "repository": {
     "type": "git",
-    "url": "git://github.com/unitjs/unit.js.git"
+    "url": "git://github.com/scub45t3v3/unit.js.git"
   },
-  "bugs": "https://github.com/unitjs/unit.js/issues",
+  "bugs": "https://github.com/scub45t3v3/unit.js/issues",
   "dependencies": {
     "bluebird": "^3.5.1",
     "lodash": "^4.17.10",
