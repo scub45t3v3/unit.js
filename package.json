@@ -30,7 +30,8 @@
     "url": "git://github.com/scub45t3v3/unit.js.git"
   },
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha test"
+    "test": "nyc --reporter=html --reporter=text mocha test",
+    "posttest": "mocha --reporter=markdown > TEST.md"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
