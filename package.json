@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Simple, intuitive and flexible unit testing framework for javascript / Node.js (browser and server). Integrates awesome assertions libraries like Must.js, Should.js, Assert of Node.js, Sinon.js and other friendly features (promise, IoC, plugins, ...).",
   "main": "src/index.js",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "http://unitjs.com",
+  "bugs": "https://github.com/scub45t3v3/unit.js/issues",
   "keywords": [
     "test",
     "spec",
@@ -22,12 +25,13 @@
       "email": "stevewin21@gmail.com"
     }
   ],
-  "homepage": "http://unitjs.com",
   "repository": {
     "type": "git",
     "url": "git://github.com/scub45t3v3/unit.js.git"
   },
-  "bugs": "https://github.com/scub45t3v3/unit.js/issues",
+  "scripts": {
+    "test": "mocha test"
+  },
   "dependencies": {
     "bluebird": "^3.5.1",
     "lodash": "^4.17.10",
@@ -40,8 +44,5 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0"
-  },
-  "scripts": {
-    "test": "mocha test"
   }
 }
